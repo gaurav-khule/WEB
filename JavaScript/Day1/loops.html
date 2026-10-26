@@ -1,0 +1,18 @@
+<script>
+  let brands = ["Addidas", "New Balance", "Puma", "Nike", "Ascis"];
+
+  // it return index values
+  for (let record of brands) {
+    //  retrieve values form array
+    console.log(record);
+    // documnet is means as html page, .write() prints value on screen rathar than console
+    document.write(`
+    <li>${record}</li>
+    `);
+  }
+
+  // it return index numbers
+  for (let record in brands) {
+    console.log(record);
+  }
+</script>

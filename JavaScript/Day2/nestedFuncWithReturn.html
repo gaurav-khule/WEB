@@ -1,0 +1,12 @@
+<script>
+  function f1(a1) {
+    return function (a2) {
+      return function (a3) {
+        return function (a4) {
+          console.log(a1 + a2 + a3 + a4);
+        };
+      };
+    };
+  }
+  f1(100)(200)(300)(400); // js currying
+</script>

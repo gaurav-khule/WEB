@@ -1,0 +1,18 @@
+<!-- In JS there is no int -->
+
+<script>
+  console.log(typeof 10, typeof 10.25);
+  console.log(typeof [], typeof {}); // this both are treat as object only
+  console.log(typeof true); // boolean
+  console.log(true + 1); // it return 2 cause it make true = 1
+  console.log(10 * "hello"); // it shows NaN(Not a Number)
+  console.log(9 == "9"); // true it compare value
+  console.log(9 === "9"); // false and this compare value and datatype also
+
+  console.log(parseInt(10.9)); // 10
+  console.log(parseInt("10sa")); // 10 // takes only integer and remove characters
+  console.log(Number("10av")); // NaN // gives error when input is combination of character
+  console.log(
+    typeof 666666666844444444444444444444444444444466666666666665555555555555111111111111122222222222222222222222222223333333333333333333333333333555555555555555555555555555555544444444448888888888888888888888888888888888888888888888888888888888888888888999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999989797654654654987498749874654654684974684654,
+  ); // Infinity
+</script>

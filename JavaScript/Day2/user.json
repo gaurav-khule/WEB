@@ -1,0 +1,80 @@
+{
+  "?xml": {
+    "@_version": "1.0",
+    "@_encoding": "UTF-8"
+  },
+  "users": {
+    "user": [
+      {
+        "id": 1,
+        "name": "Rahul",
+        "age": 22,
+        "city": "Pune",
+        "email": "rahul@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Priya",
+        "age": 21,
+        "city": "Mumbai",
+        "email": "priya@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Amit",
+        "age": 23,
+        "city": "Nashik",
+        "email": "amit@gmail.com"
+      },
+      {
+        "id": 4,
+        "name": "Neha",
+        "age": 22,
+        "city": "Nagpur",
+        "email": "neha@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Rohit",
+        "age": 24,
+        "city": "Delhi",
+        "email": "rohit@gmail.com"
+      },
+      {
+        "id": 6,
+        "name": "Priyanka",
+        "age": 20,
+        "city": "Thane",
+        "email": "priyanka@gmail.com"
+      },
+      {
+        "id": 7,
+        "name": "Akash",
+        "age": 25,
+        "city": "Akola",
+        "email": "akash@gmail.com"
+      },
+      {
+        "id": 8,
+        "name": "Sneha",
+        "age": 21,
+        "city": "Kolhapur",
+        "email": "sneha@gmail.com"
+      },
+      {
+        "id": 9,
+        "name": "Vikas",
+        "age": 23,
+        "city": "Hyderabad",
+        "email": "vikas@gmail.com"
+      },
+      {
+        "id": 10,
+        "name": "Pooja",
+        "age": 22,
+        "city": "Chennai",
+        "email": "pooja@gmail.com"
+      }
+    ]
+  }
+}

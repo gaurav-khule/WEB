@@ -1,0 +1,46 @@
+<script>
+  let products = [
+    {
+      name: "SpeedCat",
+      price: 9999,
+      path: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/406004/02/sv01/fnd/IND/fmt/png/Speedcat-Sneakers",
+      size: [8, 8.5, 9, 9.5],
+    },
+    {
+      name: "Casio",
+      price: "2599",
+      path: "https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/F/F9/F91/F-91W-1/assets/F-91W-1_Seq1.png.transform/main-visual-pc/image.png",
+      size: ["s", "m", "xl"],
+    },
+    {
+      name: "Iphone Duo",
+      price: "329000",
+      path: "https://www.apple.com/v/iphone-duo/e/images/overview/highlights/highlights_display_endframe__e0hi6rmf3hg2_large.jpg",
+      size: [16, 16.6, 17],
+    },
+  ];
+
+  for (let value of products) {
+    console.log(value);
+    document.write(`
+  <div>
+    <img src="${value.path}" width=400 height=300 alt=""/>
+    <h2>Price: ${value.price}</h2>
+    <p>${value.name}</p>
+    <p>${value.size.join(",")}</p>
+    </div>
+  `);
+  }
+</script>
+<style>
+  div {
+    border: solid;
+    width: 300px;
+    text-align: center;
+    float: left;
+  }
+
+  div img {
+    width: 100%;
+  }
+</style>

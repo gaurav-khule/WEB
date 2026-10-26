@@ -1,0 +1,27 @@
+<button>Get Data</button>
+<ul style="border: solid"></ul>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  document.querySelector("button").onclick = function () {
+    console.log(axios);
+    let result = axios.get("https://fakestoreapi.com/products/categories");
+    console.log(result);
+
+    result
+      .then(function (result) {
+        console.log(result);
+        console.log(result.data);
+        for (let value of result.data) {
+          console.log(value);
+          let liTag = document.createElement("li");
+          console.log(liTag);
+          liTag.innerHTML = value;
+          document.querySelector("ul").append(liTag);
+        }
+      })
+      .catch(function (errMsg) {
+        console.log(errMsg);
+      });
+  };
+</script>

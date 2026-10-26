@@ -1,0 +1,23 @@
+<!-- 
+
+-- In JSON string avoid using annonymous function  
+
+-- Ready made object are not allowed is not allowed
+
+-- NOT allowed
+-undefiend
+-funtions
+-built in objects
+-
+
+
+-->
+<script>
+  let info =
+    '{"name":"Alex", "age":22, "Hobbie":["Skating","Running","Hitting Gym"], "status":true}';
+  console.log(info);
+  console.log(typeof info);
+
+  let result = JSON.parse(info); // convert json to javascript
+  console.log(result);
+</script>

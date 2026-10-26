@@ -1,0 +1,22 @@
+<!-- 
+We use async keyword to hold the execution for some time until the asynchronous operation is complete but un order to use async function must be names as async 
+-->
+
+<!doctype html>
+<button>Data Data</button>
+<ul style="border: solid"></ul>
+<script>
+  document.querySelector("button").addEventListener("click", async function () {
+    let result = await fetch("https://fakestoreapi.com/products/categories");
+    console.log(result);
+    let response = await result.json();
+    console.log(response);
+    for (let value of response) {
+      console.log(value);
+      let liTag = document.createElement("li");
+      console.log(liTag);
+      liTag.innerHTML = value;
+      document.querySelector("ul").append(liTag);
+    }
+  });
+</script>

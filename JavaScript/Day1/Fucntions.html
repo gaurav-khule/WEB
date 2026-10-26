@@ -1,0 +1,14 @@
+<script>
+  //Named Function
+  function emi(p, r, n) {
+    n = n * 12;
+    r = r / 12 / 100;
+    let emiValue = (p * r * (1 + r) ** n) / [(1 + r) ** n - 1];
+    console.log(emiValue);
+    console.log(Math.round(emiValue));
+  }
+
+  //function call / invoke
+  emi(2500000, 8, 30);
+  emi(5500000, 7.3, 25);
+</script>

@@ -1,0 +1,15 @@
+<!-- ARROW FUNCITON -->
+
+<script>
+  let record = (x, y, z) => {
+    console.log(x + y + z);
+  };
+  console.log(typeof record); // function
+  record(100, 222, 300);
+  // if you only have one value we can skip () brackets
+  // when there is only on statement then we can also skip {}
+  // ---> let record1 = a => console.log(Math.sqrt(a));
+
+  let record1 = (a) => console.log(Math.sqrt(a));
+  record1(100);
+</script>

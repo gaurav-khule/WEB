@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+
+    <user>
+        <id>1</id>
+        <name>Rahul</name>
+        <age>22</age>
+        <city>Pune</city>
+        <email>rahul@gmail.com</email>
+    </user>
+
+    <user>
+        <id>2</id>
+        <name>Priya</name>
+        <age>21</age>
+        <city>Mumbai</city>
+        <email>priya@gmail.com</email>
+    </user>
+
+    <user>
+        <id>3</id>
+        <name>Amit</name>
+        <age>23</age>
+        <city>Nashik</city>
+        <email>amit@gmail.com</email>
+    </user>
+
+    <user>
+        <id>4</id>
+        <name>Neha</name>
+        <age>22</age>
+        <city>Nagpur</city>
+        <email>neha@gmail.com</email>
+    </user>
+
+    <user>
+        <id>5</id>
+        <name>Rohit</name>
+        <age>24</age>
+        <city>Delhi</city>
+        <email>rohit@gmail.com</email>
+    </user>
+
+    <user>
+        <id>6</id>
+        <name>Priyanka</name>
+        <age>20</age>
+        <city>Thane</city>
+        <email>priyanka@gmail.com</email>
+    </user>
+
+    <user>
+        <id>7</id>
+        <name>Akash</name>
+        <age>25</age>
+        <city>Akola</city>
+        <email>akash@gmail.com</email>
+    </user>
+
+    <user>
+        <id>8</id>
+        <name>Sneha</name>
+        <age>21</age>
+        <city>Kolhapur</city>
+        <email>sneha@gmail.com</email>
+    </user>
+
+    <user>
+        <id>9</id>
+        <name>Vikas</name>
+        <age>23</age>
+        <city>Hyderabad</city>
+        <email>vikas@gmail.com</email>
+    </user>
+
+    <user>
+        <id>10</id>
+        <name>Pooja</name>
+        <age>22</age>
+        <city>Chennai</city>
+        <email>pooja@gmail.com</email>
+    </user>
+
+</users>

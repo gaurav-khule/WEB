@@ -1,0 +1,13 @@
+<script>
+  //outer function
+  function f1(a1) {
+    function f2(a2) {
+      function f3(a3) {
+        console.log(a1 + a2 + a3);
+      }
+      f3(3000);
+    }
+    f2(2000);
+  }
+  f1(1000);
+</script>

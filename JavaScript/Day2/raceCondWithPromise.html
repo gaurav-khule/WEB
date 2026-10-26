@@ -1,0 +1,20 @@
+<!doctype html>
+<button>Dataaaaaaaa</button>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  document.querySelector("button").addEventListener("click", function () {
+    Promise.race([
+      axios.get("https://fakestoreapi.com/products/categories"),
+      axios.get("https://fakestoreapi.com/products/"),
+      axios.get("https://fakestoreapi.com/products/1"),
+    ])
+      .then(function (result) {
+        console.log(result);
+      })
+      .catch(function (errMsg) {
+        console.log(errMsg);
+      });
+  });
+</script>
+
+<!--  -->

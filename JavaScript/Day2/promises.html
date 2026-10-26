@@ -1,0 +1,34 @@
+<!-- PROMISES -->
+<!--  
+    Promises is an special object whcih handle only asynchronous operations
+
+    state in promises :
+         - Default state ->  pending state / unsettled state
+         - Fulfilled State  -> if your API is perfect i.e 200 state (settled state with result)
+         - Rejected State -> if your API is failed i.e. state  (settled state with error)
+
+         if promise is fullfield data can be handle by "then()"
+         if promise is rejected data can be handle by "catch()"
+         "finally()" is common handler it doesnt matter wheater promise is fullfilled or rejected
+          
+-->
+<script>
+  let record = new Promise(function (res, rej) {
+    console.log(typeof res, typeof rej);
+    setTimeout(function () {
+      res({ msg: "API Call" });
+      rej({ msg: "API Fail" });
+    }, 3000);
+  });
+  console.log(record);
+  record
+    .then(function (result) {
+      console.log(result);
+    })
+    .catch(function (errMsg) {
+      console.log(errMsg);
+    })
+    .finally(function () {
+      console.log("Nxt Task");
+    });
+</script>
